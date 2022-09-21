@@ -1,3 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.header {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(34, 34, 163) 26%, rgb(0, 212, 255) 100%);
+}
+
+.upper-content {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(18deg, rgb(2, 0, 36) 0%, rgb(33, 33, 116) 57%, rgb(0, 212, 255) 100%);
+}
+
+.down-content {
+  background: rgb(35, 29, 156);
+  background: linear-gradient(22deg, rgb(35, 29, 156) 0%, rgb(35, 29, 156) 14%, rgb(2, 0, 36) 100%);
+}
+
+.footer {
+  background: rgb(35, 29, 156);
+  background: radial-gradient(circle, rgb(35, 29, 156) 0%, rgb(11, 8, 80) 61%, rgb(2, 0, 36) 100%);
+}
+
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  min-height: 100vh;
+}
+.container .header {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.container .header p {
+  font-size: 40px;
+  color: rgb(10, 10, 59);
+}
+.container .content p {
+  color: rgb(104, 104, 181);
+}
+.container .content .upper-content {
+  display: flex;
+  height: 60vh;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 25vw;
+}
+.container .content .upper-content .upper-content-box {
+  width: 25vw;
+  height: fit-content;
+  padding: 50px;
+  border-radius: 15px;
+  border-radius: 73px;
+  background: #0e0962;
+  box-shadow: inset 5px 5px 15px #060427, inset -5px -5px 15px #160e9d;
+}
+.container .content .upper-content img {
+  width: 300px;
+  height: 250px;
+}
+.container .content .down-content {
+  display: flex;
+  height: 60vh;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 25vw;
+}
+.container .content .down-content .down-content-box {
+  width: 25vw;
+  height: fit-content;
+  padding: 50px;
+  border-radius: 15px;
+  border-radius: 73px;
+  background: #231d9c;
+  box-shadow: inset 5px 5px 15px #0e0c3e, inset -5px -5px 15px #382efa;
+}
+.container .content .down-content img {
+  width: 500px;
+}
+.container .footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.container .footer p {
+  font-size: 15px;
+  color: rgb(180, 180, 221);
+}
 
 /*# sourceMappingURL=style.css.map */

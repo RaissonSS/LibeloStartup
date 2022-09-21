@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    //border: 1px red solid;
+}
+
+.header {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(34,34,163,1) 26%, rgba(0,212,255,1) 100%);
+}
+
+.upper-content {
+    background: rgb(2,0,36);
+    background: linear-gradient(18deg, rgba(2,0,36,1) 0%, rgba(33,33,116,1) 57%, rgba(0,212,255,1) 100%);
+}
+
+.down-content {
+    background: rgb(35,29,156);
+    background: linear-gradient(22deg, rgba(35,29,156,1) 0%, rgba(35,29,156,1) 14%, rgba(2,0,36,1) 100%);
+}
+
+.footer {
+    background: rgb(35,29,156);
+    background: radial-gradient(circle, rgba(35,29,156,1) 0%, rgba(11,8,80,1) 61%, rgba(2,0,36,1) 100%);
+}
