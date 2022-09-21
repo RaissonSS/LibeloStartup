@@ -24,3 +24,35 @@
     background: rgb(35,29,156);
     background: radial-gradient(circle, rgba(35,29,156,1) 0%, rgba(11,8,80,1) 61%, rgba(2,0,36,1) 100%);
 }
+
+.rotate-center {
+	-webkit-animation: rotate-center 10s ease-in-out infinite both;
+	        animation: rotate-center 10s ease-in-out infinite both;
+}
+
+@-webkit-keyframes rotate-center {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate-center {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.rotate-center-img2 {
+	-webkit-animation: rotate-center 10s ease-in-out infinite reverse both;
+	        animation: rotate-center 10s ease-in-out infinite reverse both;
+}

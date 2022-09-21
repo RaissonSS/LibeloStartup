@@ -24,6 +24,36 @@
   background: radial-gradient(circle, rgb(35, 29, 156) 0%, rgb(11, 8, 80) 61%, rgb(2, 0, 36) 100%);
 }
 
+.rotate-center {
+  -webkit-animation: rotate-center 10s ease-in-out infinite both;
+  animation: rotate-center 10s ease-in-out infinite both;
+}
+
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rotate-center-img2 {
+  -webkit-animation: rotate-center 10s ease-in-out infinite reverse both;
+  animation: rotate-center 10s ease-in-out infinite reverse both;
+}
+
 .container {
   display: flex;
   flex-flow: column wrap;
@@ -80,7 +110,7 @@
   box-shadow: inset 5px 5px 15px #0e0c3e, inset -5px -5px 15px #382efa;
 }
 .container .content .down-content img {
-  width: 500px;
+  width: 400px;
 }
 .container .footer {
   display: flex;

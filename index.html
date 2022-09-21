@@ -7,12 +7,14 @@
     <title>Libelo</title>
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
     <div class="container">
-        <header class="header">
-            <p>Libelo</p>
+        <header class="header" >
+            <p data-aos="fade-up" data-aos-duration="3000">Libelo</p>
         </header>
 
         <div class="content">
@@ -21,15 +23,15 @@
                     <p>Nós somos a Libelo, atravès de nossos serviços garantimos uma melhor manutenção de sistemas de instituições educacionais que sofrem para cadastrar e manipular certificados e horas complementares de seus alunos, por isso criamos nosso sistema processual que garante a melhor manutenção através do cadastro, salvamento, distribuição e organização desses arquivos pertencentes aos alunos.</p>
                 </div>
 
-                <img src="./imgs/certificate.png" alt="">
+                <img src="./imgs/certificate.png" alt="certificate" class="rotate-center">
 
             </div>
 
             <div class="down-content">
-                <div class="down-content-box">
+                <div class="down-content-box" >
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laudantium, officia minus deserunt praesentium odit corrupti amet odio optio dicta veritatis, iusto numquam facere laboriosam sint cum vel id, mollitia maxime repudiandae eos tenetur placeat voluptates. Reiciendis illum omnis nulla at, corporis culpa illo perferendis voluptatibus vero aliquam tenetur recusandae?</p>
                 </div>
-                <img src="./imgs/technology.jpg" alt="">
+                <img src="./imgs/technology.jpg" alt="technolgy" class="rotate-center-img2">
             </div>
 
         </div>
@@ -39,6 +41,9 @@
         </footer>
 
     </div>
-    
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
